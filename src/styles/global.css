@@ -1,7 +1,24 @@
 @import "./variables.css";
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* FONTES */
+@font-face {
+    font-family: "title";
+    src: url(../assets/fonts/title/Genos-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "text";
+    src: url(../assets/fonts/text/HostGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "text";
 }
