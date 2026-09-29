@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero > .car > img {
+    width: 1000px;
+}
+.hero > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 16px;
+}
+.hero > .content > p {
+    text-align: center;
+}
+.hero > .content > .btns {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 70%;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.technology > p {
+    color: var(--subtitle);
+    text-transform: uppercase;
+}
+.technology > .specs {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.spec {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.spec > .title {
+    font-family: "title";
+    text-transform: uppercase;
+    font-size: 72px;
+    color: black;
+}
+.spec > .desc {
+    font-family: "title";
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+}
