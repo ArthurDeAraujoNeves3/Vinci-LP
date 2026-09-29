@@ -102,3 +102,66 @@
     width: 100%;
     height: 100%;
 }
+
+.car-parts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.car-parts > .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.car-parts > .header > .section-title {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 380px;
+    gap: 8px;
+}
+.car-parts > .header > .section-title > .title {
+    text-transform: uppercase;
+    font-family: "title";
+    color: var(--title);
+    font-size: 42px;
+}
+.car-parts > .header > .section-title > .desc {
+    color: var(--subtitle);
+}
+.car-parts > .header > .legends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+.car-parts > .header > .legends > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.column > .point {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.column > .point > .ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    background-color: var(--text);
+    color: var(--bg);
+    font-family: "title";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.column > .point > p {
+    font-family: "title";
+    text-transform: uppercase;
+    color: var(--subtitle);
+}
