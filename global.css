@@ -32,6 +32,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    /* margin: 0 auto;
+    max-width: 1600px; */
     padding-top: 80px;
 }
 
@@ -99,4 +101,8 @@ main {
 .btn-outline {
     color: white;
     border: 1px solid white;
+}
+.btn-outline-black {
+    color: var(--text);
+    border: 1px solid var(--text);
 }
